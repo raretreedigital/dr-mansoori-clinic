@@ -22,7 +22,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex flex-col">
             <span className="font-bold text-lg leading-tight">Mansoori Clinic</span>
-            <span className="text-xs opacity-90">Ritchel DMC Dubai</span>
+            <span className="text-xs opacity-90">Dubai Healthcare</span>
           </Link>
 
           {/* Desktop Navigation */}

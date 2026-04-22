@@ -103,7 +103,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Address</h3>
                     <p className="text-muted-foreground leading-relaxed mb-4">
-                      Ritchel DMC Mansoori Clinic<br />
+                      Mansoori Clinic<br />
                       Opposite Deira City Center Parking 3<br />
                       Zeenah Building, 1st Floor, Office 103<br />
                       Dubai, United Arab Emirates

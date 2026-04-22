@@ -15,7 +15,7 @@ export default function HomePage() {
         <section className="bg-primary text-primary-foreground py-16 md:py-24">
           <div className="max-w-5xl mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-balance">
-              Ritchel DMC Mansoori Clinic DXB
+              Mansoori Clinic DXB
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto text-pretty">
               Professional healthcare services in the heart of Dubai, 
