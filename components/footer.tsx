@@ -56,8 +56,19 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Mansoori Clinic DXB. All rights reserved.
+        <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground space-y-2">
+          <p>&copy; {new Date().getFullYear()} Mansoori Clinic DXB. All rights reserved.</p>
+          <p>
+            Developed by{" "}
+            <a
+              href="https://raretree.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline font-medium"
+            >
+              raretree.io
+            </a>
+          </p>
         </div>
       </div>
     </footer>
