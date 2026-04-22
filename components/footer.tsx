@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* About */}
           <div>
-            <h3 className="font-bold text-foreground mb-3">Mansoori Clinic DXB</h3>
+            <h3 className="font-bold text-foreground mb-3">Mansoori Clinic</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional healthcare services in the heart of Dubai, opposite Deira City Center.
             </p>
@@ -56,8 +56,19 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Mansoori Clinic DXB. All rights reserved.
+        <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground space-y-2">
+          <p>&copy; {new Date().getFullYear()} Mansoori Clinic. All rights reserved.</p>
+          <p>
+            Developed by{" "}
+            <a
+              href="https://raretree.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline font-medium"
+            >
+              raretree.io
+            </a>
+          </p>
         </div>
       </div>
     </footer>

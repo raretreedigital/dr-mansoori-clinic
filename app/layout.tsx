@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Mansoori Clinic DXB | Ritchel DMC',
-  description: 'Ritchel DMC Mansoori Clinic in Dubai - Opposite Deira City Center. Professional healthcare services with convenient timings.',
+  title: 'Mansoori Clinic DXB',
+  description: 'Mansoori Clinic in Dubai - Opposite Deira City Center. Professional healthcare services with convenient timings.',
   generator: 'v0.app',
   icons: {
     icon: [
