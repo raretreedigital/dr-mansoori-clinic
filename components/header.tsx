@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Phone, Menu, X } from "lucide-react"
 import { useState } from "react"
@@ -20,9 +21,14 @@ export function Header() {
     <header className="bg-primary text-primary-foreground shadow-lg sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex flex-col">
-            <span className="font-bold text-lg leading-tight">Mansoori Clinic</span>
-            <span className="text-xs opacity-90">Dubai Healthcare</span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.jpeg"
+              alt="Dr. Mansoori Clinic Logo"
+              width={48}
+              height={48}
+              className="rounded-full bg-white"
+            />
           </Link>
 
           {/* Desktop Navigation */}
